@@ -1,4 +1,3 @@
-# Import required modules
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
@@ -25,7 +24,7 @@ class CurrencyConverter:
         amount = '{:,}'.format(amount)
         return amount
 
-# Main window
+
 class Main(tk.Tk):
 
     def __init__(self, converter):
